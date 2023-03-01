@@ -20,6 +20,15 @@
                 Узнаем как обновить данные в таблице MySQL с помощью языка SQL и PHP
             </h4>
         </header>
+        <section class="code_php">
+            <?php
+            $nickname = "Александр!";
+            $hello = "Привет ";
+            $offer = "Продолжаем изучать PHP<br>
+                        На уроке узнаем как обновлять данные в таблице MySQL, что такое оператор UPDATE.";
+            echo   "<h2 class='nkname'>" . $hello . $nickname . "<br>" . "<br>" . $offer . "</h2>";
+            ?>
+        </section>
     </main>
 
 </body>
